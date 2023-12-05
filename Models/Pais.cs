@@ -8,9 +8,9 @@ namespace Projeto_Final.Models
     public class Pais
     {
 
-        [Column("PaisId")]
+        [Column("Id")]
         [Display(Name = "Código do Pais")]
-        public int PaisId { get; set; }
+        public int Id { get; set; }
 
         [Column("PaisNome")]
         [Display(Name = "Nome do Pais")]

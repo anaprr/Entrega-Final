@@ -7,9 +7,9 @@ namespace Projeto_Final.Models
     [Table("Usuario")]
     public class Usuario
     {
-        [Column("UsuarioId")]
+        [Column("Id")]
         [Display(Name = "Código do Usuario")]
-        public int UsuarioId { get; set; }
+        public int Id { get; set; }
 
         [Column("UsuarioNome")]
         [Display(Name = "Nome do Usuario")]
