@@ -66,6 +66,8 @@ namespace Projeto_Final.Controllers
         {
             if (ModelState.IsValid)
             {
+                var produto = await _context.Produto.Where(p => p.Id == saidaProduto.ProdutoId).FirstOrDefaultAsync();
+                produto.QuantidadeEstoque = produto.QuantidadeEstoque - saidaProduto.QuantidadeSaida;
                 _context.Add(saidaProduto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

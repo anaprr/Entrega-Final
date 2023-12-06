@@ -12,51 +12,45 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 menu">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Projeto_Final</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="logo" src="~/img/logoprojeto.jpg" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 ">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Cidade" asp-action="Index">Cidade</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Cliente" asp-action="Index">Cliente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cidade" asp-action="Index">Cidade</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="EntradaProduto" asp-action="Index">Entrada do produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Index">Cliente</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Estado" asp-action="Index">Estado</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="EntradaProduto" asp-action="Index">Entrada do produto</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Fornecedor" asp-action="Index">Fornecedor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Estado" asp-action="Index">Estado</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Pais" asp-action="Index">Pais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Fornecedor" asp-action="Index">Fornecedor</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Produto" asp-action="Index">Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Pais" asp-action="Index">Pais</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="SaidaProduto" asp-action="Index">Saida do Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Produto" asp-action="Index">Produto</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="TipoProduto" asp-action="Index">Tipo do Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="SaidaProduto" asp-action="Index">Saida do Produto</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="TipoSaida" asp-action="Index">Tipo Saida</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TipoProduto" asp-action="Index">Tipo do Produto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TipoSaida" asp-action="Index">Tipo Saida</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index">Usuario</a>
+                            <a class="nav-link text-dark menucor" asp-area="" asp-controller="Usuario" asp-action="Index">Usuario</a>
                         </li>
                     </ul>
                 </div>
@@ -68,6 +62,7 @@
             @RenderBody()
         </main>
     </div>
+    
 
    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

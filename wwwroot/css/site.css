@@ -17,6 +17,24 @@ body {
     margin-bottom: 60px;
 }
 .menu {
-    background-color: #A41FF2 !important;
-    height:90px;
+    background-color: #006b42 !important;
+    height: 90px;
+}
+.logo{
+   width:150px;
+   heigth:150px;
+   
+}
+.menucor{
+    color:white !important;
+}
+.livro {
+    width: 980px;
+    heigth: 980px;
+    margin-top:80px;
+}
+.livro3 {
+    width: 980px;
+    heigth: 980px;
+    margin-top: 40px;
 }
